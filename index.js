@@ -1,9 +1,9 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
-const dotenv = require('dotenv')
+import dotenv from 'dotenv'
 
-('dotenv').config()
+dotenv.config()
 
 const app = express();
 
